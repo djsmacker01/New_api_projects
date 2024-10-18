@@ -56,7 +56,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 app.get('/api', (req, res) => {
-    res.json(savage)
+    res.json(staffProfile)
 })
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
