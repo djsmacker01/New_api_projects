@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
-const savage = {
+const staffProfile = {
+    'nurudeen':{
     'age': 35,
     'birthName': 'Nurudeen Adewale Adedeji',
     'favoriteFood': 'Lamb',
@@ -11,7 +12,11 @@ const savage = {
     'friends': ['Adewole', 'Ogundele', 'Ezekiel'],
     'occupation': 'Engineering',
     'BirthLocation': 'London,England'
+    },
+    
 }
+
+ 
 
 // Middleware to parse JSON request bodies
 app.get('/', (req, res) => {
