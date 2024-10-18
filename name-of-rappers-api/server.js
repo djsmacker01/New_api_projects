@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 app.get('/api', (req, res) => {
-    res.json()
+    res.json(savage)
 })
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
