@@ -14,6 +14,28 @@ const staffProfile = {
     'BirthLocation': 'London,England'
     },
     
+    'adewole': {
+        'age': 25,
+        'birthName': 'Adewole Ogundele',
+        'favoriteFood': 'Chicken',
+        'hobbies': ['Gardening', 'Photography', 'Running'],
+        'family': ['Nurudeen', 'Mum', 'Sister'],
+        'friends': ['Nurudeen', 'Ezekiel', 'Adewale'],
+        'occupation': 'Doctor',
+        'BirthLocation': 'Ibadan, Nigeria'
+    },
+    
+    'ezekiel': {
+        'age': 28,
+        'birthName': 'Ezekiel Adewale',
+        'favoriteFood': 'Pizza',
+        'hobbies': ['Reading', 'Cooking', 'Traveling'],
+        'family': ['Adewole', 'Mum', 'Brother'],
+        'friends': ['Nurudeen', 'Adewale', 'Ogundele'],
+        'occupation': 'Teacher',
+        'BirthLocation': 'Lagos, Nigeria'
+    }
+    
 }
 
  
