@@ -34,6 +34,17 @@ const staffProfile = {
         'friends': ['Nurudeen', 'Adewale', 'Ogundele'],
         'occupation': 'Teacher',
         'BirthLocation': 'Lagos, Nigeria'
+    },
+
+    'unknown': {
+        'age': 0,
+        'birthName': 'Unknown',
+        'favoriteFood': 'Unknown',
+        'hobbies': ['Unknown'],
+        'family': ['Unknown'],
+        'friends': ['Unknown'],
+        'occupation': 'Unknown',
+        'BirthLocation': 'Unknown'
     }
     
 }
