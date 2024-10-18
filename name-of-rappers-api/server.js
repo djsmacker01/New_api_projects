@@ -55,7 +55,8 @@ const staffProfile = {
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
-app.get('/api', (req, res) => {
+app.get('/api/:name', (req, res) => {
+    console.log(req.params.name)
     res.json(staffProfile)
 })
 app.listen(PORT, () => {
