@@ -56,8 +56,19 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 app.get('/api/:name', (req, res) => {
-    console.log(req.params.name)
-    res.json(staffProfile)
+    let staffName = req.params.name.toLowerCase()
+
+    if (staffProfile[staffName]) { 
+        res.json(staffProfile[staffName])
+    }
+    // else if (staffProfile[staffName]) {
+    //     res.json(staffProfile[staffName])
+    // }
+    else {
+        res.json(staffProfile['unknown'])
+    }
+    // console.log(staffProfile[staffName].friends)
+    // res.json(staffProfile)
 })
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
